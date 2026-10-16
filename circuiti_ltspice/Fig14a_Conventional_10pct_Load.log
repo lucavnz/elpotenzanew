@@ -1,0 +1,31 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\Accetazione\Downloads\progetto_elettronica_di_potenza\circuiti_ltspice\Fig14a_Conventional_10pct_Load.net
+Start Time: Fri Oct 16 15:44:38 2026
+Options: cshunt=1p gmin=1e-9 reltol=0.005 abstol=1e-7 vntol=1e-3
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+gmin = 1e-09
+abstol = 1e-07
+reltol = 0.005
+volttol = 0.001
+Per .tran options, skipping operating point for transient analysis.
+Total elapsed time: 0.376 seconds.
+
+Files loaded:
+C:\Users\Accetazione\Downloads\progetto_elettronica_di_potenza\circuiti_ltspice\Fig14a_Conventional_10pct_Load.net
+C:\Users\Accetazione\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Accetazione\AppData\Local\LTspice\lib\cmp\standard.mos
+
+vo_avg: AVG(V(Vo))=300.372858035 FROM 0 TO 2e-05
+io_avg: AVG(I(Rload))=1.00124286034 FROM 0 TO 2e-05
+ilf_avg: AVG(I(Lf))=1.9214864958 FROM 0 TO 2e-05
+ip_peak: MAX(I(Lseq))=7.08946084976 FROM 0 TO 2e-05
+is_rms: RMS(I(Lseq))=2.42757836586 FROM 0 TO 2e-05
+iauxa_pk: MAX(I(Laux1))=6.50677680969 FROM 0 TO 2e-05
+iauxb_pk: MAX(I(Laux2))=3.34570860863 FROM 0 TO 2e-05
+vd_max: MAX(V(out_rect, sec_p))=577.857437134 FROM 0 TO 2e-05
+vsec_pk: MAX(V(sec_p, sec_n))=518.391529202 FROM 0 TO 2e-05
+vcf_pp: PP(V(out_rect))=578.856956959 FROM 0 TO 2e-05
